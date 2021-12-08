@@ -10,11 +10,11 @@ public class Exercicio04 {
 		Scanner ler = new Scanner( System.in );
 		int a, b, c, d, r, s, res;
 
-		System.out.print("Digite o número de A: ");
+		System.out.print("Digite o nÃºmero de A: ");
 		a = ler.nextInt();
-		System.out.print("Digite o número de B: ");
+		System.out.print("Digite o nÃºmero de B: ");
 		b = ler.nextInt();
-		System.out.print("Digite o número de C: ");
+		System.out.print("Digite o nÃºmero de C: ");
 		c = ler.nextInt();
 		
 		r = (a + b) * (a + b);
@@ -22,7 +22,7 @@ public class Exercicio04 {
 		
 		d = (r + s) / 2;
 		
-		System.out.print("O valor de D é "+d);
+		System.out.print("O valor de D Ã© "+d);
 	}
 
 }
