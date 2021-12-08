@@ -14,9 +14,9 @@ public class exercicio02 {
 		
 		
 		
-		System.out.println("Você tem  "+idade/365+"  anos de vida");
-        System.out.println("Você tem  "+idade/30+ "  meses de vida");
-        System.out.println("Você tem  " + idade+"  em dias de vida");
+		System.out.println("VocÃª tem  "+idade/365+"  anos de vida");
+        System.out.println("VocÃª tem  "+idade/30+ "  meses de vida");
+        System.out.println("VocÃª tem  " + idade+"  em dias de vida");
 		
 		
 		
