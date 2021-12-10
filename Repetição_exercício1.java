@@ -12,7 +12,7 @@ public class Repetição_exercício1 {
 			{
 				System.out.println(num);
 			}
-		}		System.out.println("Esses são os números que quando dividios por 11 é 5");
+		}		System.out.println("Esses são os números que quando dividios por 11 é igual a 5");
 		
 		
 	} 
