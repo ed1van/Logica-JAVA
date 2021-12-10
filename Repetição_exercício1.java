@@ -1,6 +1,6 @@
-package repetição;
+package repetiÃ§Ã£o;
 
-public class Repetição_exercício1 {
+public class RepetiÃ§Ã£o_exercÃ­cio1 {
 
 	public static void main(String[] args) {
 		
@@ -12,7 +12,7 @@ public class Repetição_exercício1 {
 			{
 				System.out.println(num);
 			}
-		}		System.out.println("Esses são os números que quando dividio por 11 dá igual a 5");
+		}		System.out.println("Esses sÃ£o os nÃºmeros que quando dividios por 11 Ã© 5");
 		
 		
 	} 
