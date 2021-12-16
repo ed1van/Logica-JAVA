@@ -8,17 +8,6 @@ public class Cachorro extends Animal {
 	private String correr;
 	
 	
-	//metodos
-	
-	public void correndo()
-	{
-		System.out.println("Está correndo ");
-	}
-	public void latindo()
-	{
-		System.out.println("e está latindo");
-	}
-
 
 	public String getCorrer() {
 		return correr;
@@ -27,6 +16,21 @@ public class Cachorro extends Animal {
 
 	public void setCorrer(String correr) {
 		this.correr = correr;
+	}
+	
+	//metodos
+	@Override
+	public void emitirsom() {
+
+		System.out.println("(Cachorro) Latidos...");
+		
+	}
+
+
+	@Override
+	public void correr() {
+		System.out.println("(Cachorro) Corre");
+		
 	}
 	
 }

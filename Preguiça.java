@@ -6,15 +6,6 @@ public class Preguiça extends Animal {
 	private String subir;
 	
 	
-	//metodos
-	public void subindo()
-	{
-		System.out.println("Está subindo numa arvore");
-	}
-	public void emitindo()
-	{
-		System.out.println("e está emitindo som");
-	}
 
 	public String getSubir() {
 		return subir;
@@ -23,6 +14,21 @@ public class Preguiça extends Animal {
 
 	public void setSubir(String subir) {
 		this.subir = subir;
+	}
+	
+	//metodos
+	@Override
+	public void emitirsom() {
+
+		System.out.println("(Preguiça) aaaaa");
+		
+	}
+
+
+	@Override
+	public void correr() {
+		System.out.println("(Preguiça) Sobe na árvore");
+		
 	}
 	
 }

@@ -5,16 +5,6 @@ public class Cavalo extends Animal {
 	
 	private String correr;
 	
-	//metodo
-	
-	public void correndo()
-	{
-		System.out.println("Está correndo ");
-	}
-	public void relinchando()
-	{
-		System.out.println("e está relinchando");
-	}
 
 	public String getCorrer() {
 		return correr;
@@ -22,6 +12,20 @@ public class Cavalo extends Animal {
 
 	public void setCorrer(String correr) {
 		this.correr = correr;
+	}
+	
+	//metodos
+	@Override
+	public void emitirsom() {
+		System.out.println("(Cavalo) Relinchar");
+		
+	}
+
+
+	@Override
+	public void correr() {
+		System.out.println("(Cavalo) Corre");
+		
 	}
 
 }

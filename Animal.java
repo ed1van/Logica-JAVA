@@ -1,12 +1,14 @@
 package herança_exercícios;
 
-public class Animal {
+public abstract class Animal {
 
 	//Atributos
 	private String raça;
 	private int idade;
 	
-	
+	//metodos que são fixos, o usuario nao altera
+	public abstract void emitirsom();
+	public abstract void correr();
 	
 	//metodo
 	
